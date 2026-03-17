@@ -1,0 +1,160 @@
+% BASE NETWORK 
+TimeSformer & CLIP & CLIP & - & False & False & False & False & False & 75.96\\
+TimeSformer & CLIP & CLIP & biLSTM & False & False & False & False & False & 76.23\\
+TimeSformer & CLIP & CLIP & GRU & False & False & False & False & False & 75.91\\
+TimeSformer & CLIP & CLIP & Conv & False & False & False & False & False & 76.17\\
+% POSITIONAL ENCODER RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & False & False & False & False & 76.04\\
+TimeSformer & CLIP & CLIP & biLSTM & True & False & False & False & False & 75.87\\
+TimeSformer & CLIP & CLIP & GRU & True & False & False & False & False & 75.71\\
+TimeSformer & CLIP & CLIP & Conv & True & False & False & False & False & 76.52\\
+% SUMMARY RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & True & False & False & False & 74.96\\
+TimeSformer & CLIP & CLIP & biLSTM & False & True & False & False & False & 76.19\\
+TimeSformer & CLIP & CLIP & GRU & False & True & False & False & False &  75.96\\
+TimeSformer & CLIP & CLIP & Conv & False & True & False & False & False & 75.21\\
+% SUMMARY RESIDUAL + POSITIONAL ENCODER RESIDUAL 
+TimeSformer & CLIP & CLIP & - & True & True & False & False & False & 75.49\\
+TimeSformer & CLIP & CLIP & biLSTM & True & True & False & False & False & 76.51\\
+TimeSformer & CLIP & CLIP & GRU  & True & True & False & False & False & 76.09\\
+TimeSformer & CLIP & CLIP & Conv & True & True & False & False & False & 75.78\\
+% BACKBONE RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & False & True & False & False & 76.29\\
+TimeSformer & CLIP & CLIP & biLSTM & False & False & True & False & False & 76.46\\
+TimeSformer & CLIP & CLIP & GRU & False & False & True & False & False & 76.07\\
+TimeSformer & CLIP & CLIP & Conv & False & False & True & False & False & 76.30\\
+% BACKBONE RESIDUAL + POSITIONAL ENCODER RESIDUAL 
+TimeSformer & CLIP & CLIP & - & True & False & True & False & False & 76.50\\
+TimeSformer & CLIP & CLIP & biLSTM & True & False & True & False & False & 76.15\\
+TimeSformer & CLIP & CLIP & GRU & True & False & True & False & False & 75.78\\
+TimeSformer & CLIP & CLIP & Conv & True & False & True & False & False & 76.57\\
+% BACKBONE RESIDUAL + SUMMARY RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & True & True & False & False & 75.13\\
+TimeSformer & CLIP & CLIP & biLSTM & False & True & True & False & False & 76.39\\
+TimeSformer & CLIP & CLIP & GRU & False & True & True & False & False & 75.78\\
+TimeSformer & CLIP & CLIP & Conv & False & True & True & False & False & 75.75\\
+% BACKBONE RESIDUAL + POSITIONAL ENCODER RESIDUAL + SUMMARY RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & True & True & False & False & 76.02 \\
+TimeSformer & CLIP & CLIP & biLSTM & True & True & True & False & False & 76.24\\
+TimeSformer & CLIP & CLIP & GRU & True & True & True & False & False & 75.66\\
+TimeSformer & CLIP & CLIP & Conv & True & True & True & False & False & 76.28\\
+% LINEAR2 RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & False & False & True & False & 75.26\\
+TimeSformer & CLIP & CLIP & biLSTM & False & False & False & True & False & 75.75\\
+TimeSformer & CLIP & CLIP & GRU & False & False & False & True & False & 75.40\\
+TimeSformer & CLIP & CLIP & Conv & False & False & False & True & False & 75.37\\
+% LINEAR2 RESIDUAL + POSITIONAL ENCODER RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & False & False & True & False & 75.78\\
+TimeSformer & CLIP & CLIP & biLSTM & True & False & False & True & False & 76.12\\
+TimeSformer & CLIP & CLIP & GRU & True & False & False & True & False & 75.93\\
+TimeSformer & CLIP & CLIP & Conv & True & False & False & True & False & 75.68\\
+% LINEAR2 RESIDUAL + SUMMARY RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & True & False & True & False & 73.54\\
+TimeSformer & CLIP & CLIP & biLSTM & False & True & False & True & False & 75.32\\
+TimeSformer & CLIP & CLIP & GRU & False & True & False & True & False & 74.83\\
+TimeSformer & CLIP & CLIP & Conv & False & True & False & True & False & 74.74\\
+% LINEAR2 RESIDUAL + POSITIONAL ENCODER RESIDUAL + SUMMARY RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & True & False & True & False &  74.63\\
+TimeSformer & CLIP & CLIP & biLSTM & True & True & False & True & False & 75.75\\
+TimeSformer & CLIP & CLIP & GRU & True & True & False & True & False & 75.39\\
+TimeSformer & CLIP & CLIP & Conv & True & True & False & True & False & 74.92\\
+% LINEAR2 RESIDUAL + BACKBONE RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & False & True & True & False & 75.85\\
+TimeSformer & CLIP & CLIP & biLSTM & False & False & True & True & False & 76.16\\
+TimeSformer & CLIP & CLIP & GRU & False & False & True & True & False & 75.63\\
+TimeSformer & CLIP & CLIP & Conv & False & False & True & True & False & 75.92\\
+% LINEAR2 RESIDUAL + BACKBONE RESIDUAL + POSITIONAL ENCODER RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & False & True & True & False & 76.50\\
+TimeSformer & CLIP & CLIP & biLSTM & True & False & True & True & False & 76.15\\
+TimeSformer & CLIP & CLIP & GRU & True & False & True & True & False & 75.78\\
+TimeSformer & CLIP & CLIP & Conv & True & False & True & True & False & 76.57\\
+% LINEAR2 RESIDUAL + BACKBONE RESIDUAL + SUMMARY RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & True & True & True & False & 75.13\\
+TimeSformer & CLIP & CLIP & biLSTM & False & True & True & True & False & 76.39\\
+TimeSformer & CLIP & CLIP & GRU & False & True & True & True & False & 75.78\\
+TimeSformer & CLIP & CLIP & Conv & False & True & True & True & False & 75.75\\
+% LINEAR2 RESIDUAL + BACKBONE RESIDUAL + POSITIONAL ENCODER RESIDUAL + SUMMARY RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & True & True & True & False & 76.02\\
+TimeSformer & CLIP & CLIP & biLSTM & True & True & True & True & False & 76.24\\
+TimeSformer & CLIP & CLIP & GRU & True & True & True & True & False & 75.66\\
+TimeSformer & CLIP & CLIP & Conv & True & True & True & True & False & 76.28\\
+% IMAGE RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & False & False & False & True & 76.10\\
+TimeSformer & CLIP & CLIP & biLSTM & False & False & False & False & True & 76.49\\
+TimeSformer & CLIP & CLIP & GRU & False & False & False & False & True & 75.99\\
+TimeSformer & CLIP & CLIP & Conv & False & False & False & False & True & 76.44\\
+% IMAGE RESIDUAL + POSITIONAL ENCODER RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & False & False & False & True & 76.18\\
+TimeSformer & CLIP & CLIP & biLSTM & True & False & False & False & True & 75.59\\
+TimeSformer & CLIP & CLIP & GRU & True & False & False & False & True & 75.68\\
+TimeSformer & CLIP & CLIP & Conv & True & False & False & False & True & 76.21\\
+% IMAGE RESIDUAL + SUMMARY RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & True & False & False & True &  74.73\\
+TimeSformer & CLIP & CLIP & biLSTM & False & True & False & False & True & 76.24\\
+TimeSformer & CLIP & CLIP & GRU & False & True & False & False & True & 75.39\\
+TimeSformer & CLIP & CLIP & Conv & False & True & False & False & True & 75.59\\
+% IMAGE RESIDUAL + SUMMARY RESIDUAL + POSITIONAL ENCODER RESIDUAL
+TimeSformer & CLIP & CLIP & -& True & True & False & False & True & 75.51\\
+TimeSformer & CLIP & CLIP & biLSTM & True & True & False & False & True & 75.89\\
+TimeSformer & CLIP & CLIP & GRU & True & True & False & False & True & 75.35\\
+TimeSformer & CLIP & CLIP & Conv  & True & True & False & False & True & 76.21\\
+% IMAGE RESIDUAL + BACKBONE RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & False & True & False & True & 76.19\\
+TimeSformer & CLIP & CLIP & biLSTM & False & False & True & False & True & 75.92\\
+TimeSformer & CLIP & CLIP & GRU & False & False & True & False & True & 76.01\\
+TimeSformer & CLIP & CLIP & Conv & False & False & True & False & True & 76.57\\
+% IMAGE RESIDUAL + BACKBONE RESIDUAL + POSITIONAL ENCODER RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & False & True & False & True & 76.15\\
+TimeSformer & CLIP & CLIP & biLSTM & True & False & True & False & True & 76.11\\
+TimeSformer & CLIP & CLIP & GRU & True & False & True & False & True & 75.67\\
+TimeSformer & CLIP & CLIP & Conv & True & False & True & False & True & 76.71\\
+% IMAGE RESIDUAL + BACKBONE RESIDUAL + SUMMARY RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & True & True & False & True & 74.89\\
+TimeSformer & CLIP & CLIP & biLSTM & False & True & True & False & True & 76.03\\
+TimeSformer & CLIP & CLIP & GRU & False & True & True & False & True & 75.73\\
+TimeSformer & CLIP & CLIP & Conv & False & True & True & False & True & 75.90\\
+% IMAGE RESIDUAL + BACKBONE RESIDUAL + SUMMARY RESIDUAL + POSITIONAL ENCODER RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & True & True & False & True & 75.57\\
+TimeSformer & CLIP & CLIP & biLSTM & True & True & True & False & True & 76.14\\
+TimeSformer & CLIP & CLIP & GRU & True & True & True & False & True & 75.73\\
+TimeSformer & CLIP & CLIP & Conv & True & True & True & False & True & 76.16\\
+% IMAGE RESIDUAL + LINEAR2 RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & False & False & True & True & 75.59\\
+TimeSformer & CLIP & CLIP & biLSTM & False & False & False & True & True & 76.04\\
+TimeSformer & CLIP & CLIP & GRU & False & False & False & True & True & 75.56\\
+TimeSformer & CLIP & CLIP & Conv & False & False & False & True & True & 76.03\\
+% IMAGE RESIDUAL + LINEAR2 RESIDUAL + POSITIONAL ENCODER RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & False & False & True & True & 75.54\\
+TimeSformer & CLIP & CLIP & biLSTM & True & False & False & True & True & 76.23\\
+TimeSformer & CLIP & CLIP & GRU & True & False & False & True & True & 75.76\\
+TimeSformer & CLIP & CLIP & Conv & True & False & False & True & True & 75.72\\
+% IMAGE RESIDUAL + LINEAR2 RESIDUAL + BACKBONE RESIDUAL
+TimeSformer & CLIP & CLIP & - & False & False & True & True & True & 75.98\\
+TimeSformer & CLIP & CLIP & biLSTM & False & False & True & True & True & 75.81\\
+TimeSformer & CLIP & CLIP & GRU & False & False & True & True & True & 75.84\\
+TimeSformer & CLIP & CLIP & Conv & False & False & True & True & True & 76.22\\
+% IMAGE RESIDUAL + LINEAR2 RESIDUAL + SUMMARY RESIDUAL
+TimeSformer & CLIP & CLIP & -& False & True & False & True & True & 73.96\\
+TimeSformer & CLIP & CLIP & biLSTM & False & True & False & True & True & 75.90\\
+TimeSformer & CLIP & CLIP & GRU & False & True & False & True & True & 74.85\\
+TimeSformer & CLIP & CLIP & Conv & False & True & False & True & True & 74.71\\
+% IMAGE RESIDUAL + LINEAR2 RESIDUAL + SUMMARY RESIDUAL + POSITIONAL ENCODER RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & True & False & True & True & 74.35\\
+TimeSformer & CLIP & CLIP & biLSTM & True & True & False & True & True & 76.01\\
+TimeSformer & CLIP & CLIP & GRU & True & True & False & True & True & 75.22\\
+TimeSformer & CLIP & CLIP & Conv & True & True & False & True & True & 75.20\\
+% IMAGE RESIDUAL + LINEAR2 RESIDUAL + BACKBONE RESIDUAL + POSITIONAL ENCODER RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & False & True & True & True & 76.04\\
+TimeSformer & CLIP & CLIP & biLSTM & True & False & True & True & True & 76.08\\
+TimeSformer & CLIP & CLIP & GRU & True & False & True & True & True & 75.89\\
+TimeSformer & CLIP & CLIP & Conv & True & False & True & True & True & 76.50\\
+% IMAGE RESIDUAL + LINEAR2 RESIDUAL + BACKBONE RESIDUAL + SUMMARY RESIDUAL
+TimeSformer & CLIP & CLIP & - & True & False & True & True & True & 74.51\\
+TimeSformer & CLIP & CLIP & biLSTM & True & False & True & True & True & 75.70\\
+TimeSformer & CLIP & CLIP & GRU & True & False & True & True & True & 75.45\\
+TimeSformer & CLIP & CLIP & Conv & True & False & True & True & True & 75.20\\
+% IMAGE RESIDUAL + LINEAR2 RESIDUAL + BACKBONE RESIDUAL + POSITIONAL ENCODER RESIDUAL + SUMMARY RESIDUAL
+TimeSformer & CLIP & CLIP & - &  True & True & True & True & True & 75.29\\
+TimeSformer & CLIP & CLIP & biLSTM & True & True & True & True & True & 76.44\\
+TimeSformer & CLIP & CLIP & GRU & True & True & True & True & True & 75.79\\
+TimeSformer & CLIP & CLIP & Conv & True & True & True & True & True & 76.\\
